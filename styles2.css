@@ -1,0 +1,93 @@
+/* Reset and basic styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: palevioletred;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.user-actions a {
+  margin-left: 1rem;
+}
+
+/* Main content styles */
+main {
+  padding: 2rem;
+}
+
+.verification-prompt {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.verification-message {
+  background-color: #fff;
+  color: palevioletred;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.email-address {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: palevioletred;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+footer nav ul li {
+  margin-right: 1rem;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+}

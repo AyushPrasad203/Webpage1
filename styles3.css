@@ -1,0 +1,117 @@
+/* Reset and basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color:palevioletred; /* Red */
+    color: #fff;
+    padding: 1rem;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Menu bar styles */
+nav {
+    background-color: palevioletred; /* Red */
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.profile-creation h1 {
+    margin-bottom: 1rem;
+}
+
+.profile-creation p {
+    margin-bottom: 2rem;
+}
+
+.avatar-section,
+.location-section {
+    margin-bottom: 2rem;
+}
+
+.avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.avatar-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff; /* White */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.avatar-icon {
+    font-size: 3rem;
+    color: palevioletred; /* Red */
+}
+
+input[type="text"] {
+    padding: 0.8rem;
+    border: 1px solid palevioletred; /* Red */
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.next-button {
+    background-color: palevioletred; /* Red */
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}

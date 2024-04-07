@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="styles4.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-section">
+      <div class="content">
+        <h1>Discover the world's top Designers &amp; Creatives.</h1>
+        <div class="illustration">
+          <!-- Replace with your illustration SVG or image -->
+          <img src="image/signup.avif" alt="Illustration">
+        </div>
+        <p class="artist-credit">Art by Peter Tarka</p>
+      </div>
+    </div>
+    <div class="right-section">
+      <div class="form-container">
+        <div class="form-header">
+          <p>Already a member? <a href="#">Sign In</a></p>
+          <h2>Sign up to Dribbble</h2>
+          <p class="error-message">Username has already been taken</p>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" value="John">
+          </div>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" value="John" class="error">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" value="account@refero.design">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="6+ characters">
+          </div>
+          <div class="form-group form-group-checkbox">
+            <input type="checkbox" id="terms">
+            <label for="terms">Creating an account means you're okay with our Terms of Service, Privacy Policy, and our default Notification Settings.</label>
+          </div>
+          <a href="avatar.html" class="next-button">Create Account</a>
+          <p class="form-footer">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
